@@ -15,6 +15,7 @@
 		9EE381A4152A2E9F003AEF55 /* HappinessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE381A3152A2E9F003AEF55 /* HappinessAppDelegate.m */; };
 		9EE381A7152A2E9F003AEF55 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE381A5152A2E9F003AEF55 /* MainStoryboard.storyboard */; };
 		9EE381AA152A2E9F003AEF55 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE381A9152A2E9F003AEF55 /* HappinessViewController.m */; };
+		9EE381B2152A2F69003AEF55 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE381B1152A2F69003AEF55 /* FaceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		9EE38193152A2E9F003AEF55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9EE38195152A2E9F003AEF55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9EE38197152A2E9F003AEF55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9EE3819B152A2E9F003AEF55 /* Happiness-Info.plist */ = {isa = PBXFileReference; path = "Happiness-Info.plist"; sourceTree = "<group>"; };
+		9EE3819B152A2E9F003AEF55 /* Happiness-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Happiness-Info.plist"; sourceTree = "<group>"; };
 		9EE3819D152A2E9F003AEF55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EE3819F152A2E9F003AEF55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9EE381A1152A2E9F003AEF55 /* Happiness-Prefix.pch */ = {isa = PBXFileReference; path = "Happiness-Prefix.pch"; sourceTree = "<group>"; };
-		9EE381A2152A2E9F003AEF55 /* HappinessAppDelegate.h */ = {isa = PBXFileReference; path = HappinessAppDelegate.h; sourceTree = "<group>"; };
+		9EE381A1152A2E9F003AEF55 /* Happiness-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Happiness-Prefix.pch"; sourceTree = "<group>"; };
+		9EE381A2152A2E9F003AEF55 /* HappinessAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappinessAppDelegate.h; sourceTree = "<group>"; };
 		9EE381A3152A2E9F003AEF55 /* HappinessAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessAppDelegate.m; sourceTree = "<group>"; };
 		9EE381A6152A2E9F003AEF55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		9EE381A8152A2E9F003AEF55 /* HappinessViewController.h */ = {isa = PBXFileReference; path = HappinessViewController.h; sourceTree = "<group>"; };
+		9EE381A8152A2E9F003AEF55 /* HappinessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
 		9EE381A9152A2E9F003AEF55 /* HappinessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
+		9EE381B0152A2F69003AEF55 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		9EE381B1152A2F69003AEF55 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				9EE381A5152A2E9F003AEF55 /* MainStoryboard.storyboard */,
 				9EE381A8152A2E9F003AEF55 /* HappinessViewController.h */,
 				9EE381A9152A2E9F003AEF55 /* HappinessViewController.m */,
+				9EE381B0152A2F69003AEF55 /* FaceView.h */,
+				9EE381B1152A2F69003AEF55 /* FaceView.m */,
 				9EE3819A152A2E9F003AEF55 /* Supporting Files */,
 			);
 			path = Happiness;
@@ -124,7 +129,7 @@
 		9EE38186152A2E9E003AEF55 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "nexiles GmbH";
 			};
 			buildConfigurationList = 9EE38189152A2E9E003AEF55 /* Build configuration list for PBXProject "Happiness" */;
@@ -164,6 +169,7 @@
 				9EE381A0152A2E9F003AEF55 /* main.m in Sources */,
 				9EE381A4152A2E9F003AEF55 /* HappinessAppDelegate.m in Sources */,
 				9EE381AA152A2E9F003AEF55 /* HappinessViewController.m in Sources */,
+				9EE381B2152A2F69003AEF55 /* FaceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,7 @@
 				9EE381AF152A2E9F003AEF55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
